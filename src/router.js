@@ -32,6 +32,9 @@ export default new Router({
         },{
             path:'material',
             component:()=>import('./views/material')
+        },{
+            path:'fansdate',
+            component:()=>import('./views/fans')
         }]
     }]
 })
